@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+/** ==================== Default all Page Css ======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    overflow-x: hidden;
+}
+
+
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+
+
+/** ==================== Header(NavBar) page Css ======================*/
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px lightslategrey;
+    --webkit-box-shadow: 0 8px 6px -6px lightslategrey;
+    border-bottom: 0.3px solid lightslategrey;
+}
+.nav-link{
+    font-weight: 400!important;
+}
+
+.active{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.nav-item{
+    padding-right: 30px!important;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-family: 'roboto','sans-serif';
+    letter-spacing: 3px;
+}
+
+/** ==================== Footer page Css ======================*/
+.footer{
+    color: white;
+    padding: 8px;
+    background: #000000;
+    background:-webkit-linear-gradient(
+            to right,
+            #434343,
+            #000000);
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a{
+    text-decoration: none;
+    color: gold;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.footer a:hover{
+    border-bottom: 2px solid rgb(6, 11, 36);
+}
+
+/** ==================== Not Found page Css ======================*/
+.pnf-btn{
+    color: #ff0101;
+    border: 2px solid #ff0101;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 8px;
+
+}
+.pnf-btn:hover{
+    color: lime;
+    border: 2px solid lime;
+}
+
+/** ==================== Contact page Css ======================*/
+.form_bg{
+    padding: 68px;
+}
+.details_bg{
+    padding: 68px;
+}
+
+.container{
+    height: 82.5vh!important;
+ }
+
+/** ==================== Register page Css ======================*/
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82.6vh;
+    flex-direction: column;
+    background-color: black;
+
+
+}
+.form_area{
+    width: 25vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.product_link{
+    text-decoration: none;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: contain;
+    transition: transform .2s; /* Animation */
+}
+
+.card-img-top:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
